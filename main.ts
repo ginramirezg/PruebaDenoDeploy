@@ -6,7 +6,7 @@ import { resolvers } from "./resolvers.ts";
 import { schema } from "./schema.ts";
 
 
-const MONGO_URL = Deno.env.get("MONGO_URL");
+const MONGO_URL = "mongodb+srv://gramirezg:rafa691228@nebrijacluster.q7zhz.mongodb.net/?retryWrites=true&w=majority&appName=NebrijaCluster"
 
 if (!MONGO_URL) {
   throw new Error("Please provide a MONGO_URL");
