@@ -5,6 +5,7 @@ import {startStandaloneServer} from "@apollo/server/standalone";
 import { resolvers } from "./resolvers.ts";
 import { schema } from "./schema.ts";
 
+
 const MONGO_URL = Deno.env.get("MONGO_URL");
 
 if (!MONGO_URL) {
