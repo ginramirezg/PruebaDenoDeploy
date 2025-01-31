@@ -243,6 +243,6 @@ export const resolvers = {
 
             return response.timezones[0];
 
-        }
+        } 
     }
 }
