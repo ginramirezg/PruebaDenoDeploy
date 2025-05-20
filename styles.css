@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 20%;
+  border-right: 1px solid #ccc;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.contact-link {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  background-color: #f0f0f0;
+}
+
+.chat-area {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  margin: 5px 0;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.bubble {
+  display: inline-block;
+  background-color: #e0e0e0;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+
+.message-form {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+
+.message-form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.message-form button {
+  padding: 10px;
+}
+
+.select-text {
+  padding: 20px;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+form input {
+  padding: 8px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px;
+}
